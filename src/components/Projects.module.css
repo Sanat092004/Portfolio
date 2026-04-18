@@ -1,5 +1,5 @@
 .projects {
-  padding: 140px 0;
+  padding: 140px 0 0;
   background-color: var(--bg);
 }
 
@@ -20,7 +20,7 @@
 .list {
   display: flex;
   flex-direction: column;
-  gap: 140px;
+  gap: 100px;
 }
 
 .card {
@@ -146,8 +146,8 @@
 }
 
 @media (max-width: 768px) {
-  .projects { padding: 100px 0; }
-  .list { gap: 80px; }
+  .projects { padding: 80px 0 0; }
+  .list { gap: 60px; }
   .phone { width: 180px; }
   .browser { width: 92%; }
   .projectName { font-size: 1.8rem; }
