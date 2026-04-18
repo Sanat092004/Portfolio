@@ -1,0 +1,63 @@
+.card {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 3.5rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xl);
+  text-align: center;
+}
+
+.centered { text-align: center; }
+.centered.section-label { justify-content: center; display: flex; }
+
+.sub {
+  color: var(--text2);
+  font-weight: 300;
+  font-size: 1rem;
+  max-width: 480px;
+  margin: 0 auto 2.5rem;
+  line-height: 1.75;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+.contactLink {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.15rem;
+  padding: 0.7rem 1.5rem;
+  border: 1px solid var(--border-h);
+  border-radius: var(--radius-md);
+  transition: all var(--transition);
+  min-width: 140px;
+}
+.contactLink:hover {
+  border-color: var(--border-a);
+  background: rgba(76, 95, 213, 0.05);
+  transform: translateY(-2px);
+}
+
+.linkLabel {
+  font-size: 0.88rem;
+  font-weight: 500;
+  color: var(--text);
+}
+
+.linkText {
+  font-family: var(--ff-mono);
+  font-size: 0.68rem;
+  font-weight: 300;
+  color: var(--text3);
+}
+
+@media (max-width: 600px) {
+  .card { padding: 2rem 1.25rem; }
+  .contactLink { min-width: 120px; }
+}

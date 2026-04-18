@@ -1,0 +1,160 @@
+export const meta = {
+  name: "Sanat Kumar Dhawan",
+  title: "Android & Mobile Developer · AI-Native Builder",
+  email: "kumarsanat1324@gmail.com",
+  phone: "+91 92368 92307",
+  github: "https://github.com/Sanat092004",
+  githubAlt: "https://github.com/TheDaredevil26",
+  linkedin: "https://www.linkedin.com/in/sanat-kumar-dhawan",
+  location: "Chennai, Tamil Nadu 🇮🇳",
+  university: "SRM Institute of Science and Technology",
+  cgpa: "9.3 / 10",
+  year: "2nd Year · ECE · Expected 2028",
+  openTo: "Remote & On-site internships — anywhere",
+};
+
+export const stats = [
+  { num: "9.3", suffix: "/10", label: "CGPA · 3rd Semester" },
+  { num: "6", suffix: "+", label: "Projects Shipped" },
+  { num: "30", suffix: "+", label: "Team Members Led" },
+];
+
+export const skills = [
+  {
+    icon: "⚡",
+    title: "AI Coding Tools",
+    items: ["Claude (Anthropic)", "Cursor", "Replit AI", "Antigravity IDE", "Kiro"],
+    variant: "accent",
+  },
+  {
+    icon: "📱",
+    title: "Mobile & Design",
+    items: ["Android · Kotlin", "Figma", "Wireframing", "Prototyping", "UI/UX"],
+    variant: "cyan",
+  },
+  {
+    icon: "💻",
+    title: "Programming",
+    items: ["Python", "Java", "C", "Embedded C"],
+    variant: "accent",
+  },
+  {
+    icon: "🔌",
+    title: "Embedded Systems",
+    items: ["ESP32", "LoRa Protocol", "IR Sensors", "Circuit Design"],
+    variant: "cyan",
+  },
+  {
+    icon: "🛠",
+    title: "Dev Workflow",
+    items: ["Git / GitHub", "FastAPI", "Supabase", "Product Documentation"],
+    variant: "green",
+  },
+  {
+    icon: "🎯",
+    title: "Professional",
+    items: ["Team Leadership", "HR Coordination", "Event Management"],
+    variant: "accent",
+  },
+];
+
+export const projects = [
+  {
+    id: "jambites",
+    name: "Jambites",
+    tagline: "Android · Food Delivery App",
+    emoji: "🚗",
+    featured: false,
+    badge: "AI-Powered",
+    badgeColor: "cyan",
+    desc: "A traffic-jam focused food & medicine delivery app for motorists stuck in gridlock. Features real-time vendor discovery, order management, and three Claude-powered AI features — the Jammy chatbot, personalized menu ranking, and a live traffic banner. Built simultaneously across Kiro, Cursor, and Replit AI environments with a full PRD and academic documentation.",
+    stack: ["Kotlin", "Android SDK", "Claude API", "Cursor", "Kiro", "Express.js", "PostgreSQL"],
+    github: "https://github.com/Sanat092004/Jambites-MobileApp",
+    demo: null,
+  },
+  {
+    id: "earnsafe",
+    name: "EarnSafe",
+    tagline: "Hackathon · Guidewire DEVTrails 2026",
+    emoji: "🛡",
+    featured: false,
+    badgeColor: "green",
+    desc: "Mobile-first parametric insurance platform protecting Swiggy/Zomato delivery riders from income loss due to verified weather & environmental disruptions. Led product strategy, user flows, and all documentation for Team DevXFive — two Medium articles, Devpost writeup, LinkedIn post, and README.",
+    stack: ["FastAPI", "Supabase", "Expo (React Native)", "CatBoost", "Isolation Forest", "Razorpay", "Figma"],
+    github: "https://github.com/Sanat092004",
+    demo: null,
+  },
+  {
+    id: "semantic-search",
+    name: "Semantic Search Engine",
+    tagline: "Python · NLP · Vector Search",
+    emoji: "🔍",
+    featured: false,
+    badge: null,
+    desc: "A semantic search engine that retrieves results based on meaning, not just keywords. Uses sentence embeddings and vector similarity to enable natural-language queries. Goes beyond exact-match retrieval to surface contextually relevant content.",
+    stack: ["Python", "Sentence Transformers", "Vector Embeddings", "NLP"],
+    github: "https://github.com/TheDaredevil26/semantic_search",
+    demo: null,
+  },
+  {
+    id: "esp32-lora",
+    name: "Emergency Comm System",
+    tagline: "Embedded Systems · Hardware",
+    emoji: "📡",
+    featured: false,
+    badge: "Hand-Built",
+    badgeColor: "accent",
+    desc: "Long-range disaster communication system using LoRa protocol — transmitting messages across several kilometres without any internet infrastructure. Independently architected, coded in Embedded C, and tested on ESP32 sender-receiver pair.",
+    stack: ["ESP32", "LoRa Protocol", "Embedded C", "UART"],
+    github: null,
+    demo: null,
+  },
+  {
+    id: "stray-coffee",
+    name: "Stray Coffee Order App",
+    tagline: "UI/UX Design · Figma",
+    emoji: "☕",
+    featured: false,
+    badge: null,
+    desc: "Complete multi-screen mobile prototype — splash, home, payment, order tracking, and confirmation. Applies visual hierarchy, component reusability, and accessibility principles throughout. Portfolio-ready UI/UX work.",
+    stack: ["Figma", "Prototyping", "Component Library", "Accessibility"],
+    github: null,
+    demo: "https://www.figma.com/proto/QGwwtrOnNNfgod9EUzGQvA/ADGIPS-GDGC-1?t=A8OpaO2cpWMK2c63-1",
+  },
+  {
+    id: "dragon-habit",
+    name: "Dragon Habit Tracker",
+    tagline: "Gamification · Figma",
+    emoji: "🐉",
+    featured: false,
+    badge: null,
+    desc: "Gamified habit-tracking app for developers featuring a dragon progression system, streak analytics, and onboarding flow. Showcases design range across mobile and web with a distinct visual identity.",
+    stack: ["Figma", "Gamification", "Onboarding Flow", "Mobile + Web"],
+    github: null,
+    demo: "https://www.figma.com/proto/tnQQ3GjpQjh6EvIWPYcq07/Habit-tracking-App?t=A8OpaO2cpWMK2c63-1",
+  },
+];
+
+export const experience = [
+  {
+    emoji: "🎯",
+    role: "Associate Head",
+    org: "PLACFV – SRM Student Placement Team",
+    date: "Jan 2025 – Present",
+    desc: "Lead and coordinate 30+ members in placement drive operations. Manage student participation and liaise with HR representatives from visiting companies across high-volume on-campus recruitment events.",
+  },
+  {
+    emoji: "🤖",
+    role: "Team Member",
+    org: "SRM Team Robocon",
+    date: "Jul 2024 – Mar 2025",
+    desc: "Trained in electrical circuit design and hardware debugging as part of SRM's competitive robotics team. Hands-on experience with embedded systems, circuit troubleshooting, and collaborative engineering under pressure.",
+  },
+];
+
+export const certifications = [
+  { icon: "🤖", name: "Android Developer Virtual Internship", issuer: "Google Developers" },
+  { icon: "🎨", name: "UI/UX Winter Bootcamp", issuer: "Google Developer Groups" },
+  { icon: "🐍", name: "Python for Beginners & Advanced Python", issuer: "Online Certification" },
+  { icon: "🧱", name: "Fundamentals of Data Structures in C", issuer: "Online Certification" },
+];
