@@ -1,5 +1,7 @@
 # Sanat Kumar Dhawan — Minimalist Design Portfolio
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FSanat092004%2FPortfolio)
+
 A high-fidelity, minimalist design portfolio built to showcase a range of AI-driven products, mobile applications, and embedded systems engineering. 
 
 Inspired by the refined, high-end aesthetic of [mattfredette.com](https://www.mattfredette.com/), this project focuses on high-impact typography, generous whitespace, and interactive motion.
