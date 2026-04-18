@@ -22,7 +22,7 @@ export default function Projects() {
             return (
               <div key={p.id} className={styles.card}>
                 <div 
-                  className={styles.imageBox} 
+                  className={`${styles.imageBox} ${styles[config.device + 'Box']}`} 
                   style={{ backgroundColor: config.bg }}
                 >
                   <div className={`${styles.deviceFrame} ${styles[config.device]}`}>

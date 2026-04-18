@@ -148,7 +148,31 @@
 @media (max-width: 768px) {
   .projects { padding: 80px 0 0; }
   .list { gap: 60px; }
-  .phone { width: 180px; }
-  .browser { width: 92%; }
+  .sectionTitle { font-size: 2.2rem; margin-bottom: 3rem; }
+  
+  .phoneBox {
+    aspect-ratio: 4 / 5;
+    padding: 30px;
+    align-items: center;
+  }
+  
+  .browserBox {
+    aspect-ratio: 4 / 3;
+    padding: 20px;
+    align-items: center;
+  }
+  
+  .phone { 
+    width: 220px; 
+    height: 95%;
+    align-self: flex-end;
+  }
+  
+  .browser { 
+    width: 95%; 
+    height: auto; 
+    aspect-ratio: 16 / 10;
+  }
+  
   .projectName { font-size: 1.8rem; }
 }
